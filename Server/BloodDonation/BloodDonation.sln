@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonation", "BloodDonation\BloodDonation.csproj", "{FDC36583-6343-4B8E-974F-1BB1ADC13C02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonation", "BloodDonation\BloodDonation.csproj", "{3C78D1F5-4092-405F-B21B-BAF425043DA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FDC36583-6343-4B8E-974F-1BB1ADC13C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FDC36583-6343-4B8E-974F-1BB1ADC13C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FDC36583-6343-4B8E-974F-1BB1ADC13C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FDC36583-6343-4B8E-974F-1BB1ADC13C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C78D1F5-4092-405F-B21B-BAF425043DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C78D1F5-4092-405F-B21B-BAF425043DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C78D1F5-4092-405F-B21B-BAF425043DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C78D1F5-4092-405F-B21B-BAF425043DA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8753D711-9780-44D6-B9AD-9186354FCFF6}
+		SolutionGuid = {555DD8F7-187C-47E4-A38A-E33F0F7CF8BF}
 	EndGlobalSection
 EndGlobal
