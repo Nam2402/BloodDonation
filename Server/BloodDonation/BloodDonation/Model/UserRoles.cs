@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace BloodDonation.Model
 {
-    public class BloodGroup:CRUDDate
+    public class UserRoles:CRUDDate
     {
-        public int id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
     }
 }

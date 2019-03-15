@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BloodDonation.Model
 {
-    public class UserRole
+    public class Status
     {
         public int Id { get; set; }
         public string Name { get; set; }
