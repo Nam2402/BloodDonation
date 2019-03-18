@@ -25,8 +25,5 @@ namespace BloodDonation.Controllers
             List<UserRoles> UserRoles = _userRoleService.GetAllUserRole();
             return Ok(UserRoles);
         }
-
-
-
     }
 }

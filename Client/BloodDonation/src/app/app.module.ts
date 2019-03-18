@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app.routing';
 import { ComponentsModule } from './components/components.module';
-
+import { ComponentsModule1 } from './user/components/components.module';
 import { AppComponent } from './app.component';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -21,13 +21,14 @@ import {
   AgmCoreModule
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
-
+import { UserLayoutComponent } from './layouts/user-layout/user-layout.component';
 @NgModule({
   imports: [
     BrowserAnimationsModule,
     FormsModule,
     HttpModule,
-    ComponentsModule,
+    // ComponentsModule,
+    ComponentsModule1,
     RouterModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({
@@ -36,8 +37,8 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
   ],
   declarations: [
     AppComponent,
-    AdminLayoutComponent,
-
+    // AdminLayoutComponent,
+    UserLayoutComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

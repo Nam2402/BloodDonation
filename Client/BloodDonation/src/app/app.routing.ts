@@ -4,20 +4,42 @@ import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
-
+import { UserLayoutComponent } from './layouts/user-layout/user-layout.component';
 const routes: Routes =[
+  //  {
+  //    path: '',
+  //    redirectTo: 'home-page',
+  //    pathMatch: 'full',
+  //  },
+  //  {
+  //   path: '',
+  //   component: UserLayoutComponent,
+  //   children: [
+  //       {
+  //     path: '',
+  //     loadChildren: './layouts/user-layout/user-layout.module#UserLayoutModule'
+  // }]},
   {
-    path: '',
-    redirectTo: 'dashboard',
-    pathMatch: 'full',
-  }, {
-    path: '',
-    component: AdminLayoutComponent,
+    path:'user',
+    component: UserLayoutComponent,
     children: [
-        {
-      path: '',
-      loadChildren: './layouts/admin-layout/admin-layout.module#AdminLayoutModule'
-  }]}
+            {
+          path: '',
+          loadChildren: './layouts/user-layout/user-layout.module#UserLayoutModule'
+      }]},
+  //  {
+  //    path: '',
+  //    redirectTo: 'dashboard',
+  //    pathMatch: 'full',
+  //  },
+//   {
+//    path: 'dashboard',
+//    component: AdminLayoutComponent,
+//    children: [
+//        {
+//      path: '',
+//      loadChildren: './layouts/admin-layout/admin-layout.module#AdminLayoutModule'
+//  }]}
     // { path: 'dashboard',      component: DashboardComponent },
     // { path: 'user-profile',   component: UserProfileComponent },
     // { path: 'table-list',     component: TableListComponent },
